@@ -5,6 +5,8 @@
  */
 package gittestcode;
 
+import javax.swing.SwingUtilities;
+
 /**
  *
  * @author A3
@@ -16,7 +18,7 @@ public class Gittestcode {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello world");
+        SwingUtilities.invokeLater(new gui());
     }
     
 }
